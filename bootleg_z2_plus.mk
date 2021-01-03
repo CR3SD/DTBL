@@ -23,8 +23,8 @@ $(call inherit-product, device/zuk/z2_plus/device.mk)
 # Inherit some common PixysOS stuff.
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
-# Pixys stuff
-DEVICE_MAINTAINERS="Straight"
+# Bootleg stuff
+#DEVICE_MAINTAINERS="Straight"
 
 # GApps
 TARGET_GAPPS_ARCH := arm64
